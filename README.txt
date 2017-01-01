@@ -6,11 +6,21 @@ the Eclipse IDE, but the M2Eclipse plugin should be installed since it is used t
 the classpath.  The project is also setup to use the Spring IDE (http://springide.org).
 	
 It can also be run from the command line with 'mvn jetty:run' and accessed at the url 
-'http://localhost:8080/simple-form'.
+'http://localhost:8080/form-mvc-tiles-webapp'.
 
+Webapp based on 
+https://github.com/spring-by-example/spring-by-example/tree/master/web/dynamic-tiles2-webapp
+to use more standard and recent libraries 
 
 Release Notes
 --------------
+2.0.0 - Forked from https://github.com/spring-by-example/spring-by-example
+		Created standalone version
+		Changed from HSQLDB to H2
+		Upgraded to Spring 4.3
+		Upgraded to Hibernate 5.2
+		Remove sbe-dynamic-tiles2 dependency
+		
 1.1.4 - Upgraded to Spring 4.1.4.
 
 1.1.3 - Upgraded to Spring 4.0.2.
